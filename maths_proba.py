@@ -1,4 +1,4 @@
-# Créé par boini, le 17/04/2025 en Python 3.7
+# Créé par Arthur, le 17/04/2025 en Python 3.7
 """
 def factorielle(x):
     if not(isinstance(x,int)) or x<0:
@@ -18,4 +18,5 @@ def C(n,k):
     return factorielle(n)/(factorielle(k)*factorielle(n-k))
 def exp(x):
     e=2.7182818285
+
     return e**x
