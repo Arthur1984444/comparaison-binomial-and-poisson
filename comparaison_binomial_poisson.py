@@ -1,4 +1,4 @@
-# Créé par boini, le 15/04/2025 en Python 3.7
+# Créé par ARTHUR, le 15/04/2025 en Python 3.7
 import matplotlib.pyplot as plt
 from maths_proba import factorielle,C,exp
 
@@ -57,3 +57,4 @@ def comparaison(f1,f2,x,n,p,sign):
 #comparaison(binomial,poisson,9,10,0.5,"=") #n et p trop grand donc approximation non valable
 #comparaison(binomial, poisson, 15, 100, 0.05, "=")
 comparaison(binomial, poisson, 159, 1000, 0.02, "=")
+
